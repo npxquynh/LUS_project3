@@ -4,9 +4,9 @@ import re
 import math
 
 def get_feature(sentence):
-    # return binary_occurrences(sentence)
+    return binary_occurrences(sentence)
     # return freq_unigram(sentence)
-    return tf_idf(sentence)
+    # return tf_idf(sentence)
 
 def binary_occurrences(sentence):
     words = re.split('[\w]+', sentence)
